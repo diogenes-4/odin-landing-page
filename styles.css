@@ -1,0 +1,154 @@
+body{
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    font-family: sans-serif;
+    margin: 0px;
+}
+.header, .intro, .footer{
+    background-color: #1F2937;
+}
+.footer{
+    color: #f9faf8;
+    text-align: center;
+}
+.header, .intro, .quote, .pseudo-ad, .footer{
+    padding-left: 170px;
+    padding-right: 170px;
+}
+.header{
+    font-size: 24px;
+    color: #f9faf8;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+a, .intro-p{
+    font-size: 18px;
+    color: #e5e7eb;
+    text-decoration: none;
+}
+/* Intro Section*/
+.intro{
+    display: flex;
+    flex: auto;
+    justify-content: space-around;
+}
+.shadow{
+    width: 550px;
+    height: 300px;
+    padding-left: 70px;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+.intro-text{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+.intro-p{
+    padding-right: 50px;
+}
+.button-one{
+    color: white;
+    font-weight: 700;
+    font-size: 20px;
+    background-color: #3882f6;
+    border-radius: 12px;
+    border: 0px;
+    width: 150px;
+    height: 50px;
+    padding: 5px 20px 5px 20px;
+}
+/* Quote Section */
+.quote{
+    background-color: #e5e7eb;
+    padding: 100px 250px 100px 250px;
+}
+.inspiring{
+    font-size: 36px;
+    color: #1f2937a0;
+}
+.thor{
+    display: flex;
+    justify-content: flex-end;
+}
+/* Info Section */
+.info{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding-left: 250px;
+    padding-right: 250px;
+    padding-bottom: 100px;
+}
+h2{
+    display: flex;
+    justify-content: center;
+    font-size: 36px;
+    color: #1f2937;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+.info-content{
+    display: flex;
+    flex-direction: row;
+}
+.living-room, .car-emblem, .beach, .nasa{
+    width: 170px;
+    height: 170px;
+}
+.duo{
+    text-align: center;
+}
+/* Call Section */
+.pseudo-ad{
+    background-color: #3882f6;
+    margin: 100px 150px 100px 150px;
+    border-radius: 8px;
+    display: flex;
+}
+.call{
+    padding: 50px 0px 50px 0px;
+}
+h5, .sign-up{
+    color: #f9faf8;
+} 
+h5{
+    font-size: 25px;
+    margin-top: 10px;
+    margin-bottom: 0px;
+}
+#button-two{
+    color: white;
+    font-weight: 700;
+    font-size: 20px;
+    background-color: #3882f6;
+    border-radius: 8px;
+    width: 150px;
+    height: 50px;
+    padding: 5px 20px 5px 20px;
+    border: solid 1px;
+    border-color:#f9faf8 ;
+}
+.second-button-container{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    margin-left: 250px;
+}
+
+
+ul{
+    display: flex;
+    gap: 20px;
+    list-style-type: none;
+}
+h1{
+    font-size: 48px;
+    font-weight: 900;
+    color: #f9faf8;
+    margin: 0px;
+}
